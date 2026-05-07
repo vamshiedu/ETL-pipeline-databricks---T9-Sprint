@@ -149,22 +149,6 @@ Features:
 
 ---
 
-# CDC Demonstration
-
-Delta Change Data Feed (CDF) was implemented to demonstrate:
-
-* Insert tracking
-* Update tracking
-* Delete tracking
-
-CDC was validated separately using:
-
-```sql
-table_changes()
-```
-
----
-
 # ETL Validation Testing
 
 Validation testing includes:
@@ -249,26 +233,6 @@ Pipeline Flow:
 
 ---
 
-# Project Structure
-
-```text
-ETL-pipeline-databricks/
-│
-├── notebooks/
-│   ├── 01_initial_setup.sql
-│   ├── 02_bronze_layer.sql
-│   ├── 03_silver_layer.sql
-│   ├── 04_gold_layer.sql
-│   ├── 05_incremental_load.sql
-│   ├── 06_scd2_processing.sql
-│   ├── 07_validation_testing.sql
-│   ├── 08_archival_process.py
-│   ├── 09_archival_validation.py
-│   └── 10_cdc_demo.sql
-```
-
----
-
 # Key Features
 
 * End-to-end ETL Pipeline
@@ -282,20 +246,3 @@ ETL-pipeline-databricks/
 * Archival Framework
 * Workflow Automation
 
----
-
-# Future Enhancements
-
-* Audit Logging Framework
-* Pipeline Monitoring Dashboard
-* Data Quality Scorecards
-* Rejection Tables
-* Alerting & Notifications
-* Performance Optimization
-* CI/CD Integration
-
----
-
-# Conclusion
-
-This project demonstrates a production-style ETL Lakehouse pipeline using Databricks and Delta Lake with incremental processing, historical tracking, validation testing, and workflow orchestration.
