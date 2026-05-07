@@ -265,12 +265,6 @@ ETL-pipeline-databricks/
 │   ├── 08_archival_process.py
 │   ├── 09_archival_validation.py
 │   └── 10_cdc_demo.sql
-│
-├── datasets/
-│
-├── screenshots/
-│
-└── README.md
 ```
 
 ---
